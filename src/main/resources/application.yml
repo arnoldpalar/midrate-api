@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://clusteraws0-rw:LXiWPAZBH2JQKb5v@clusteraws0-sjryx.mongodb.net/test?retryWrites=true&w=majority
+      database: m-exchange
+
+security:
+  oauth2:
+    client:
+      clientId: 499724087612912
+      clientSecret: 6ec79ee3b5d99b40a107f0b22e2ed9fe
+      accessTokenUri: https://graph.facebook.com/oauth/access_token
+      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://graph.facebook.com/me
