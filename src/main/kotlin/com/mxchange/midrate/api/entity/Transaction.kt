@@ -1,4 +1,4 @@
-package com.mexchange.api.entity
+package com.mxchange.midrate.api.entity
 
 import org.springframework.data.mongodb.core.mapping.Document
 import java.math.BigDecimal

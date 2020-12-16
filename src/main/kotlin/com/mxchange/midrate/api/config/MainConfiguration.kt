@@ -1,4 +1,4 @@
-package com.mexchange.api.config
+package com.mxchange.midrate.api.config
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean
 import org.springframework.context.annotation.Bean
